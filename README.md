@@ -1,4 +1,3 @@
-# Prolog-project
 # Smart Health Care
 
 Smart Health Care is a web-based healthcare and wellness application with:
