@@ -1,0 +1,73 @@
+<svg width="1600" height="1000" viewBox="0 0 1600 1000" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1600" y2="1000" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#06111F"/>
+      <stop offset="1" stop-color="#12315C"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="260" y1="160" x2="1340" y2="880" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F8FBFF"/>
+      <stop offset="1" stop-color="#EAF4FF"/>
+    </linearGradient>
+    <filter id="shadow" x="220" y="120" width="1160" height="800" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="24" stdDeviation="22" flood-color="#02101E" flood-opacity="0.28"/>
+    </filter>
+    <style>
+      .title { font: 800 56px 'Segoe UI', Arial, sans-serif; fill: #F7FBFF; }
+      .subtitle { font: 700 20px 'Segoe UI', Arial, sans-serif; fill: #BFD4F2; letter-spacing: 2px; }
+      .heading { font: 800 28px 'Segoe UI', Arial, sans-serif; fill: #16345F; }
+      .section { font: 800 24px 'Segoe UI', Arial, sans-serif; }
+      .file { font: 800 20px 'Segoe UI', Arial, sans-serif; fill: #173159; }
+      .desc { font: 600 18px 'Segoe UI', Arial, sans-serif; fill: #4A668C; }
+      .small { font: 700 16px 'Segoe UI', Arial, sans-serif; fill: #5F7698; }
+      .count { font: 700 18px 'Segoe UI', Arial, sans-serif; fill: #1C7A43; }
+    </style>
+  </defs>
+
+  <rect width="1600" height="1000" fill="url(#bg)"/>
+  <circle cx="1460" cy="120" r="170" fill="#4D8DFF" fill-opacity="0.12"/>
+  <circle cx="110" cy="900" r="210" fill="#7FB3FF" fill-opacity="0.08"/>
+
+  <text x="800" y="88" text-anchor="middle" class="subtitle">DATASETS</text>
+  <text x="800" y="150" text-anchor="middle" class="title">SMART HEALTH CARE DATA FILES</text>
+
+  <g filter="url(#shadow)">
+    <rect x="250" y="190" width="1100" height="720" rx="34" fill="url(#panel)"/>
+  </g>
+
+  <rect x="300" y="235" width="1000" height="58" rx="18" fill="#DCEBFF"/>
+  <text x="800" y="272" text-anchor="middle" class="heading">data/ folder structure</text>
+
+  <g>
+    <rect x="320" y="330" width="960" height="150" rx="22" fill="#EAF7EE" stroke="#BFE2C8"/>
+    <text x="355" y="368" class="section" fill="#1F7A46">users.json</text>
+    <text x="1170" y="368" text-anchor="end" class="small">Authentication dataset</text>
+    <text x="365" y="412" class="desc">Stores registered user account details.</text>
+    <text x="365" y="446" class="desc">Contains name, email, password hash, salt, user id, and created date.</text>
+    <text x="365" y="476" class="count">Purpose: Login and registration management</text>
+  </g>
+
+  <g>
+    <rect x="320" y="510" width="960" height="180" rx="22" fill="#FFF3E8" stroke="#FFD5AE"/>
+    <text x="355" y="548" class="section" fill="#D07012">records.json</text>
+    <text x="1170" y="548" text-anchor="end" class="small">Health report dataset</text>
+    <text x="365" y="592" class="desc">Stores patient details, symptoms, generated diagnosis, and recommendations.</text>
+    <text x="365" y="626" class="desc">Includes food to intake, food to avoid, exercise plan, diet plan, urgency, and risk score.</text>
+    <text x="365" y="660" class="desc">Also keeps doctor specialization and report generation date.</text>
+    <text x="365" y="686" class="count">Purpose: Patient history and continuous health monitoring</text>
+  </g>
+
+  <g>
+    <rect x="320" y="720" width="960" height="130" rx="22" fill="#EEF1FF" stroke="#CBD4FF"/>
+    <text x="355" y="758" class="section" fill="#4A55D4">feedback.json</text>
+    <text x="1170" y="758" text-anchor="end" class="small">Patient feedback dataset</text>
+    <text x="365" y="802" class="desc">Stores patient star ratings and comments after report generation.</text>
+    <text x="365" y="832" class="count">Purpose: Feedback collection and user satisfaction tracking</text>
+  </g>
+
+  <g stroke="#B8CBE8" stroke-width="4" stroke-linecap="round">
+    <line x1="338" y1="352" x2="338" y2="780"/>
+    <line x1="338" y1="352" x2="350" y2="352"/>
+    <line x1="338" y1="532" x2="350" y2="532"/>
+    <line x1="338" y1="742" x2="350" y2="742"/>
+  </g>
+</svg>

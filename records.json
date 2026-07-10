@@ -1,0 +1,969 @@
+[
+  {
+    "name": "API Patient",
+    "age": 38,
+    "heartRate": 116,
+    "temperature": 38.6,
+    "oxygen": 91,
+    "stressLevel": "high",
+    "activityLevel": "low",
+    "symptoms": [
+      "fever",
+      "cough",
+      "fatigue"
+    ],
+    "diagnosis": "viral_infection",
+    "matchedRules": [
+      "viral_infection"
+    ],
+    "observations": [
+      "Symptom pattern matches a likely viral infection profile.",
+      "Temperature is elevated above the healthy threshold.",
+      "Oxygen saturation is low and needs urgent review.",
+      "Heart rate is elevated and should be monitored."
+    ],
+    "recommendations": [
+      "Rest well, stay hydrated, and arrange a physician review if symptoms persist.",
+      "Monitor fever closely and continue hydration.",
+      "Use emergency care channels if oxygen remains low.",
+      "Rest and repeat the measurement after a short interval.",
+      "Add light daily movement and walking to improve wellness.",
+      "High stress detected. Include mindfulness and sleep recovery in the care plan."
+    ],
+    "urgency": "critical",
+    "riskScore": 91,
+    "engine": "fallback",
+    "engineMessage": "SWI-Prolog was not detected, so the built-in JavaScript mirror rules were used.",
+    "createdAt": "2026-04-04T12:32:46.165Z"
+  },
+  {
+    "userId": "2f682766-1792-4aed-b871-eaaa0af0865c",
+    "userEmail": "spurthihanumandla648@gmail.com",
+    "name": "Hanumandla spurthi",
+    "age": 19,
+    "heartRate": 88,
+    "temperature": 37.1,
+    "oxygen": 98,
+    "stressLevel": "moderate",
+    "activityLevel": "medium",
+    "lifestyleNotes": "",
+    "symptoms": [
+      "fever",
+      "cough",
+      "shortness_of_breath",
+      "thirst"
+    ],
+    "diagnosis": "general_wellness",
+    "matchedRules": [
+      "general_wellness"
+    ],
+    "observations": [
+      "No strong disease rule was triggered from the current information."
+    ],
+    "recommendations": [
+      "Maintain balanced diet, exercise, hydration, and regular check-ups."
+    ],
+    "urgency": "low",
+    "riskScore": 18,
+    "engine": "fallback",
+    "engineMessage": "SWI-Prolog was not detected, so the built-in JavaScript mirror rules were used.",
+    "createdAt": "2026-04-04T12:57:44.794Z"
+  },
+  {
+    "userId": "2f682766-1792-4aed-b871-eaaa0af0865c",
+    "userEmail": "spurthihanumandla648@gmail.com",
+    "name": "Hanumandla spurthi",
+    "age": 19,
+    "heartRate": 88,
+    "temperature": 37.1,
+    "oxygen": 98,
+    "stressLevel": "moderate",
+    "activityLevel": "medium",
+    "lifestyleNotes": "",
+    "symptoms": [
+      "fever",
+      "cough",
+      "chest_pain",
+      "shortness_of_breath",
+      "thirst",
+      "frequent_urination"
+    ],
+    "diagnosis": "cardiac_alert",
+    "matchedRules": [
+      "cardiac_alert",
+      "diabetes_risk"
+    ],
+    "observations": [
+      "Chest pain with breathing difficulty indicates a possible cardiac emergency.",
+      "Frequent urination with thirst suggests diabetic-risk screening is needed."
+    ],
+    "recommendations": [
+      "Seek urgent doctor attention immediately.",
+      "Schedule blood sugar testing and clinical review."
+    ],
+    "urgency": "critical",
+    "riskScore": 96,
+    "engine": "fallback",
+    "engineMessage": "SWI-Prolog was not detected, so the built-in JavaScript mirror rules were used.",
+    "createdAt": "2026-04-04T12:58:47.514Z"
+  },
+  {
+    "userId": "2f682766-1792-4aed-b871-eaaa0af0865c",
+    "userEmail": "spurthihanumandla648@gmail.com",
+    "name": "Hanumandla spurthi",
+    "age": 32,
+    "heartRate": 88,
+    "temperature": 37.1,
+    "oxygen": 98,
+    "stressLevel": "moderate",
+    "activityLevel": "medium",
+    "lifestyleNotes": "",
+    "symptoms": [
+      "fatigue",
+      "chest_pain",
+      "thirst"
+    ],
+    "diagnosis": "general_wellness",
+    "matchedRules": [
+      "general_wellness"
+    ],
+    "observations": [
+      "No strong disease rule was triggered from the current information."
+    ],
+    "recommendations": [
+      "Maintain balanced diet, exercise, hydration, and regular check-ups."
+    ],
+    "urgency": "low",
+    "riskScore": 18,
+    "engine": "fallback",
+    "engineMessage": "SWI-Prolog was not detected, so the built-in JavaScript mirror rules were used.",
+    "createdAt": "2026-04-04T13:04:08.271Z"
+  },
+  {
+    "userId": "2f682766-1792-4aed-b871-eaaa0af0865c",
+    "userEmail": "spurthihanumandla648@gmail.com",
+    "name": "Hanumandla spurthi",
+    "age": 32,
+    "heartRate": 88,
+    "temperature": 37.1,
+    "oxygen": 98,
+    "stressLevel": "moderate",
+    "activityLevel": "medium",
+    "lifestyleNotes": "",
+    "symptoms": [
+      "cough",
+      "fatigue",
+      "chest_pain",
+      "shortness_of_breath",
+      "thirst"
+    ],
+    "diagnosis": "cardiac_alert",
+    "matchedRules": [
+      "cardiac_alert"
+    ],
+    "observations": [
+      "Chest pain with breathing difficulty indicates a possible cardiac emergency."
+    ],
+    "recommendations": [
+      "Seek urgent doctor attention immediately."
+    ],
+    "urgency": "critical",
+    "riskScore": 73,
+    "engine": "fallback",
+    "engineMessage": "SWI-Prolog was not detected, so the built-in JavaScript mirror rules were used.",
+    "createdAt": "2026-04-04T13:04:18.894Z"
+  },
+  {
+    "userId": "2f682766-1792-4aed-b871-eaaa0af0865c",
+    "userEmail": "spurthihanumandla648@gmail.com",
+    "name": "Hanumandla spurthi",
+    "age": 32,
+    "heartRate": 88,
+    "temperature": 37.1,
+    "oxygen": 98,
+    "stressLevel": "moderate",
+    "activityLevel": "medium",
+    "lifestyleNotes": "",
+    "symptoms": [
+      "headache",
+      "chest_pain",
+      "shortness_of_breath",
+      "frequent_urination"
+    ],
+    "diagnosis": "cardiac_alert",
+    "matchedRules": [
+      "cardiac_alert"
+    ],
+    "observations": [
+      "Chest pain with breathing difficulty indicates a possible cardiac emergency."
+    ],
+    "recommendations": [
+      "Seek urgent doctor attention immediately."
+    ],
+    "precautions": [
+      "Avoid self-driving, strenuous activity, and delaying emergency evaluation."
+    ],
+    "urgency": "critical",
+    "riskScore": 73,
+    "engine": "fallback",
+    "engineMessage": "SWI-Prolog was not detected, so the built-in JavaScript mirror rules were used.",
+    "createdAt": "2026-04-04T13:07:11.967Z"
+  },
+  {
+    "userId": "2f682766-1792-4aed-b871-eaaa0af0865c",
+    "userEmail": "spurthihanumandla648@gmail.com",
+    "name": "Hanumandla spurthi",
+    "age": 32,
+    "gender": "female",
+    "bloodGroup": "",
+    "height": 168,
+    "weight": 62,
+    "heartRate": 88,
+    "temperature": 37.1,
+    "oxygen": 98,
+    "stressLevel": "moderate",
+    "activityLevel": "medium",
+    "lifestyleNotes": "",
+    "symptoms": [
+      "fever",
+      "fatigue",
+      "chest_pain",
+      "thirst"
+    ],
+    "diagnosis": "general_wellness",
+    "matchedRules": [
+      "general_wellness"
+    ],
+    "observations": [
+      "No strong disease rule was triggered from the current information."
+    ],
+    "recommendations": [
+      "Maintain balanced diet, exercise, hydration, and regular check-ups."
+    ],
+    "precautions": [
+      "Avoid irregular sleep, poor hydration, and a prolonged sedentary routine."
+    ],
+    "doctorSpecialization": [
+      "General physician"
+    ],
+    "foodIntake": [
+      "Seasonal fruits",
+      "Vegetables",
+      "Protein-rich meals",
+      "Adequate water intake"
+    ],
+    "urgency": "low",
+    "riskScore": 18,
+    "engine": "fallback",
+    "engineMessage": "SWI-Prolog was not detected, so the built-in JavaScript mirror rules were used.",
+    "createdAt": "2026-04-04T13:23:02.712Z"
+  },
+  {
+    "userId": "2f682766-1792-4aed-b871-eaaa0af0865c",
+    "userEmail": "spurthihanumandla648@gmail.com",
+    "name": "Hanumandla spurthi",
+    "age": 32,
+    "gender": "female",
+    "bloodGroup": "",
+    "height": 168,
+    "weight": 62,
+    "heartRate": 88,
+    "temperature": 37.1,
+    "oxygen": 98,
+    "stressLevel": "moderate",
+    "activityLevel": "medium",
+    "lifestyleNotes": "",
+    "symptoms": [
+      "fatigue",
+      "headache",
+      "chest_pain",
+      "thirst"
+    ],
+    "diagnosis": "general_wellness",
+    "matchedRules": [
+      "general_wellness"
+    ],
+    "observations": [
+      "No strong disease rule was triggered from the current information."
+    ],
+    "recommendations": [
+      "Maintain balanced diet, exercise, hydration, and regular check-ups."
+    ],
+    "precautions": [
+      "Avoid irregular sleep, poor hydration, and a prolonged sedentary routine."
+    ],
+    "doctorSpecialization": [
+      "General physician"
+    ],
+    "foodIntake": [
+      "Seasonal fruits",
+      "Vegetables",
+      "Protein-rich meals",
+      "Adequate water intake"
+    ],
+    "foodsToAvoid": [
+      "Highly processed food",
+      "Sugary packaged snacks",
+      "Excess oily meals"
+    ],
+    "exercisePlan": [
+      "30 minutes of walking",
+      "Light stretching",
+      "Basic body-weight exercise 3 to 4 times weekly"
+    ],
+    "dietPlan": [
+      "Balanced diet with protein, vegetables, fruits, and whole grains"
+    ],
+    "urgency": "low",
+    "riskScore": 18,
+    "engine": "fallback",
+    "engineMessage": "SWI-Prolog was not detected, so the built-in JavaScript mirror rules were used.",
+    "createdAt": "2026-04-05T06:30:28.831Z"
+  },
+  {
+    "userId": "2f682766-1792-4aed-b871-eaaa0af0865c",
+    "userEmail": "spurthihanumandla648@gmail.com",
+    "name": "Hanumandla spurthi",
+    "age": 32,
+    "gender": "female",
+    "bloodGroup": "",
+    "height": 168,
+    "weight": 62,
+    "heartRate": 88,
+    "temperature": 37.1,
+    "oxygen": 98,
+    "stressLevel": "moderate",
+    "activityLevel": "medium",
+    "lifestyleNotes": "",
+    "symptoms": [],
+    "diagnosis": "general_wellness",
+    "matchedRules": [
+      "general_wellness"
+    ],
+    "observations": [
+      "No strong disease rule was triggered from the current information."
+    ],
+    "recommendations": [
+      "Maintain balanced diet, exercise, hydration, and regular check-ups."
+    ],
+    "precautions": [
+      "Avoid irregular sleep, poor hydration, and a prolonged sedentary routine."
+    ],
+    "doctorSpecialization": [
+      "General physician"
+    ],
+    "foodIntake": [
+      "Seasonal fruits",
+      "Vegetables",
+      "Protein-rich meals",
+      "Adequate water intake"
+    ],
+    "foodsToAvoid": [
+      "Highly processed food",
+      "Sugary packaged snacks",
+      "Excess oily meals"
+    ],
+    "exercisePlan": [
+      "30 minutes of walking",
+      "Light stretching",
+      "Basic body-weight exercise 3 to 4 times weekly"
+    ],
+    "dietPlan": [
+      "Balanced diet with protein, vegetables, fruits, and whole grains"
+    ],
+    "urgency": "low",
+    "riskScore": 18,
+    "engine": "fallback",
+    "engineMessage": "SWI-Prolog was not detected, so the built-in JavaScript mirror rules were used.",
+    "createdAt": "2026-04-05T06:38:54.866Z"
+  },
+  {
+    "userId": "2f682766-1792-4aed-b871-eaaa0af0865c",
+    "userEmail": "spurthihanumandla648@gmail.com",
+    "name": "Hanumandla spurthi",
+    "age": 32,
+    "gender": "female",
+    "bloodGroup": "",
+    "height": 168,
+    "weight": 62,
+    "heartRate": 88,
+    "temperature": 37.1,
+    "oxygen": 98,
+    "stressLevel": "moderate",
+    "activityLevel": "medium",
+    "lifestyleNotes": "",
+    "symptoms": [],
+    "diagnosis": "general_wellness",
+    "matchedRules": [
+      "general_wellness"
+    ],
+    "observations": [
+      "No strong disease rule was triggered from the current information."
+    ],
+    "recommendations": [
+      "Maintain balanced diet, exercise, hydration, and regular check-ups."
+    ],
+    "precautions": [
+      "Avoid irregular sleep, poor hydration, and a prolonged sedentary routine."
+    ],
+    "doctorSpecialization": [
+      "General physician"
+    ],
+    "foodIntake": [
+      "Seasonal fruits",
+      "Vegetables",
+      "Protein-rich meals",
+      "Adequate water intake"
+    ],
+    "foodsToAvoid": [
+      "Highly processed food",
+      "Sugary packaged snacks",
+      "Excess oily meals"
+    ],
+    "exercisePlan": [
+      "30 minutes of walking",
+      "Light stretching",
+      "Basic body-weight exercise 3 to 4 times weekly"
+    ],
+    "dietPlan": [
+      "Balanced diet with protein, vegetables, fruits, and whole grains"
+    ],
+    "urgency": "low",
+    "riskScore": 18,
+    "engine": "fallback",
+    "engineMessage": "SWI-Prolog was not detected, so the built-in JavaScript mirror rules were used.",
+    "createdAt": "2026-04-05T06:44:46.394Z"
+  },
+  {
+    "userId": "2f682766-1792-4aed-b871-eaaa0af0865c",
+    "userEmail": "spurthihanumandla648@gmail.com",
+    "name": "Hanumandla spurthi",
+    "age": 32,
+    "gender": "female",
+    "bloodGroup": "",
+    "height": 168,
+    "weight": 62,
+    "heartRate": 88,
+    "temperature": 37.1,
+    "oxygen": 98,
+    "stressLevel": "moderate",
+    "activityLevel": "medium",
+    "lifestyleNotes": "",
+    "symptoms": [],
+    "diagnosis": "general_wellness",
+    "matchedRules": [
+      "general_wellness"
+    ],
+    "observations": [
+      "No strong disease rule was triggered from the current information."
+    ],
+    "recommendations": [
+      "Maintain balanced diet, exercise, hydration, and regular check-ups."
+    ],
+    "precautions": [
+      "Avoid irregular sleep, poor hydration, and a prolonged sedentary routine."
+    ],
+    "doctorSpecialization": [
+      "General physician"
+    ],
+    "foodIntake": [
+      "Seasonal fruits",
+      "Vegetables",
+      "Protein-rich meals",
+      "Adequate water intake"
+    ],
+    "foodsToAvoid": [
+      "Highly processed food",
+      "Sugary packaged snacks",
+      "Excess oily meals"
+    ],
+    "exercisePlan": [
+      "30 minutes of walking",
+      "Light stretching",
+      "Basic body-weight exercise 3 to 4 times weekly"
+    ],
+    "dietPlan": [
+      "Balanced diet with protein, vegetables, fruits, and whole grains"
+    ],
+    "urgency": "low",
+    "riskScore": 18,
+    "engine": "fallback",
+    "engineMessage": "SWI-Prolog was not detected, so the built-in JavaScript mirror rules were used.",
+    "createdAt": "2026-04-05T06:59:55.055Z"
+  },
+  {
+    "userId": "2f682766-1792-4aed-b871-eaaa0af0865c",
+    "userEmail": "spurthihanumandla648@gmail.com",
+    "name": "Hanumandla spurthi",
+    "age": 32,
+    "gender": "female",
+    "bloodGroup": "",
+    "height": 168,
+    "weight": 62,
+    "heartRate": 88,
+    "temperature": 37.1,
+    "oxygen": 51,
+    "stressLevel": "moderate",
+    "activityLevel": "medium",
+    "lifestyleNotes": "",
+    "symptoms": [],
+    "diagnosis": "general_wellness",
+    "matchedRules": [
+      "general_wellness"
+    ],
+    "observations": [
+      "Oxygen saturation is low and needs urgent review.",
+      "No strong disease rule was triggered from the current information."
+    ],
+    "recommendations": [
+      "Use emergency care channels if oxygen remains low.",
+      "Maintain balanced diet, exercise, hydration, and regular check-ups."
+    ],
+    "precautions": [
+      "Avoid exertion and monitor oxygen readings closely when saturation is low.",
+      "Avoid irregular sleep, poor hydration, and a prolonged sedentary routine."
+    ],
+    "doctorSpecialization": [
+      "General physician"
+    ],
+    "foodIntake": [
+      "Seasonal fruits",
+      "Vegetables",
+      "Protein-rich meals",
+      "Adequate water intake"
+    ],
+    "foodsToAvoid": [
+      "Highly processed food",
+      "Sugary packaged snacks",
+      "Excess oily meals"
+    ],
+    "exercisePlan": [
+      "30 minutes of walking",
+      "Light stretching",
+      "Basic body-weight exercise 3 to 4 times weekly"
+    ],
+    "dietPlan": [
+      "Balanced diet with protein, vegetables, fruits, and whole grains"
+    ],
+    "urgency": "critical",
+    "riskScore": 53,
+    "engine": "fallback",
+    "engineMessage": "SWI-Prolog was not detected, so the built-in JavaScript mirror rules were used.",
+    "createdAt": "2026-04-09T06:09:46.342Z"
+  },
+  {
+    "userId": "2f682766-1792-4aed-b871-eaaa0af0865c",
+    "userEmail": "spurthihanumandla648@gmail.com",
+    "name": "Hanumandla spurthi",
+    "age": 32,
+    "gender": "female",
+    "bloodGroup": "",
+    "height": 168,
+    "weight": 40,
+    "heartRate": 88,
+    "temperature": 37.1,
+    "oxygen": 98,
+    "stressLevel": "moderate",
+    "activityLevel": "medium",
+    "lifestyleNotes": "",
+    "symptoms": [],
+    "diagnosis": "general_wellness",
+    "matchedRules": [
+      "general_wellness"
+    ],
+    "observations": [
+      "No strong disease rule was triggered from the current information."
+    ],
+    "recommendations": [
+      "Maintain balanced diet, exercise, hydration, and regular check-ups."
+    ],
+    "precautions": [
+      "Avoid irregular sleep, poor hydration, and a prolonged sedentary routine."
+    ],
+    "doctorSpecialization": [
+      "General physician"
+    ],
+    "foodIntake": [
+      "Seasonal fruits",
+      "Vegetables",
+      "Protein-rich meals",
+      "Adequate water intake"
+    ],
+    "foodsToAvoid": [
+      "Highly processed food",
+      "Sugary packaged snacks",
+      "Excess oily meals"
+    ],
+    "exercisePlan": [
+      "30 minutes of walking",
+      "Light stretching",
+      "Basic body-weight exercise 3 to 4 times weekly"
+    ],
+    "dietPlan": [
+      "Balanced diet with protein, vegetables, fruits, and whole grains"
+    ],
+    "urgency": "low",
+    "riskScore": 18,
+    "engine": "fallback",
+    "engineMessage": "SWI-Prolog was not detected, so the built-in JavaScript mirror rules were used.",
+    "createdAt": "2026-04-09T06:44:44.306Z"
+  },
+  {
+    "userId": "2f682766-1792-4aed-b871-eaaa0af0865c",
+    "userEmail": "spurthihanumandla648@gmail.com",
+    "name": "Hanumandla spurthi",
+    "age": 32,
+    "gender": "female",
+    "bloodGroup": "",
+    "height": 168,
+    "weight": 40,
+    "heartRate": 88,
+    "temperature": 37.1,
+    "oxygen": 98,
+    "stressLevel": "moderate",
+    "activityLevel": "medium",
+    "lifestyleNotes": "",
+    "symptoms": [],
+    "diagnosis": "general_wellness",
+    "matchedRules": [
+      "general_wellness"
+    ],
+    "observations": [
+      "No strong disease rule was triggered from the current information."
+    ],
+    "recommendations": [
+      "Maintain balanced diet, exercise, hydration, and regular check-ups."
+    ],
+    "precautions": [
+      "Avoid irregular sleep, poor hydration, and a prolonged sedentary routine."
+    ],
+    "doctorSpecialization": [
+      "General physician"
+    ],
+    "foodIntake": [
+      "Seasonal fruits",
+      "Vegetables",
+      "Protein-rich meals",
+      "Adequate water intake"
+    ],
+    "foodsToAvoid": [
+      "Highly processed food",
+      "Sugary packaged snacks",
+      "Excess oily meals"
+    ],
+    "exercisePlan": [
+      "30 minutes of walking",
+      "Light stretching",
+      "Basic body-weight exercise 3 to 4 times weekly"
+    ],
+    "dietPlan": [
+      "Balanced diet with protein, vegetables, fruits, and whole grains"
+    ],
+    "urgency": "low",
+    "riskScore": 18,
+    "engine": "fallback",
+    "engineMessage": "SWI-Prolog was not detected, so the built-in JavaScript mirror rules were used.",
+    "createdAt": "2026-04-16T14:57:22.924Z"
+  },
+  {
+    "userId": "2f682766-1792-4aed-b871-eaaa0af0865c",
+    "userEmail": "spurthihanumandla648@gmail.com",
+    "name": "Hanumandla spurthi",
+    "age": 32,
+    "gender": "female",
+    "bloodGroup": "",
+    "height": 168,
+    "weight": 62,
+    "heartRate": 88,
+    "temperature": 37.1,
+    "oxygen": 98,
+    "stressLevel": "moderate",
+    "activityLevel": "medium",
+    "lifestyleNotes": "",
+    "symptoms": [],
+    "diagnosis": "general_wellness",
+    "matchedRules": [
+      "general_wellness"
+    ],
+    "observations": [
+      "No strong disease rule was triggered from the current information."
+    ],
+    "recommendations": [
+      "Maintain balanced diet, exercise, hydration, and regular check-ups."
+    ],
+    "precautions": [
+      "Avoid irregular sleep, poor hydration, and a prolonged sedentary routine."
+    ],
+    "doctorSpecialization": [
+      "General physician"
+    ],
+    "foodIntake": [
+      "Seasonal fruits",
+      "Vegetables",
+      "Protein-rich meals",
+      "Adequate water intake"
+    ],
+    "foodsToAvoid": [
+      "Highly processed food",
+      "Sugary packaged snacks",
+      "Excess oily meals"
+    ],
+    "exercisePlan": [
+      "30 minutes of walking",
+      "Light stretching",
+      "Basic body-weight exercise 3 to 4 times weekly"
+    ],
+    "dietPlan": [
+      "Balanced diet with protein, vegetables, fruits, and whole grains"
+    ],
+    "urgency": "low",
+    "riskScore": 18,
+    "engine": "fallback",
+    "engineMessage": "SWI-Prolog was not detected, so the built-in JavaScript mirror rules were used.",
+    "createdAt": "2026-04-17T03:50:12.019Z"
+  },
+  {
+    "userId": "2f682766-1792-4aed-b871-eaaa0af0865c",
+    "userEmail": "spurthihanumandla648@gmail.com",
+    "name": "Hanumandla spurthi",
+    "age": 32,
+    "gender": "female",
+    "bloodGroup": "",
+    "height": 168,
+    "weight": 62,
+    "heartRate": 88,
+    "temperature": 37.1,
+    "oxygen": 98,
+    "stressLevel": "moderate",
+    "activityLevel": "medium",
+    "lifestyleNotes": "",
+    "symptoms": [
+      "fever",
+      "cough",
+      "headache",
+      "chest_pain"
+    ],
+    "diagnosis": "general_wellness",
+    "matchedRules": [
+      "general_wellness"
+    ],
+    "observations": [
+      "No strong disease rule was triggered from the current information."
+    ],
+    "recommendations": [
+      "Maintain balanced diet, exercise, hydration, and regular check-ups."
+    ],
+    "precautions": [
+      "Avoid irregular sleep, poor hydration, and a prolonged sedentary routine."
+    ],
+    "doctorSpecialization": [
+      "General physician"
+    ],
+    "foodIntake": [
+      "Seasonal fruits",
+      "Vegetables",
+      "Protein-rich meals",
+      "Adequate water intake"
+    ],
+    "foodsToAvoid": [
+      "Highly processed food",
+      "Sugary packaged snacks",
+      "Excess oily meals"
+    ],
+    "exercisePlan": [
+      "30 minutes of walking",
+      "Light stretching",
+      "Basic body-weight exercise 3 to 4 times weekly"
+    ],
+    "dietPlan": [
+      "Balanced diet with protein, vegetables, fruits, and whole grains"
+    ],
+    "urgency": "low",
+    "riskScore": 18,
+    "engine": "fallback",
+    "engineMessage": "SWI-Prolog was not detected, so the built-in JavaScript mirror rules were used.",
+    "createdAt": "2026-04-17T03:53:15.895Z"
+  },
+  {
+    "userId": "2f682766-1792-4aed-b871-eaaa0af0865c",
+    "userEmail": "spurthihanumandla648@gmail.com",
+    "name": "Hanumandla spurthi",
+    "age": 32,
+    "gender": "female",
+    "bloodGroup": "",
+    "height": 168,
+    "weight": 62,
+    "heartRate": 88,
+    "temperature": 37.1,
+    "oxygen": 98,
+    "stressLevel": "moderate",
+    "activityLevel": "medium",
+    "lifestyleNotes": "",
+    "symptoms": [
+      "fatigue",
+      "headache",
+      "chest_pain",
+      "thirst"
+    ],
+    "diagnosis": "general_wellness",
+    "matchedRules": [
+      "general_wellness"
+    ],
+    "observations": [
+      "No strong disease rule was triggered from the current information."
+    ],
+    "recommendations": [
+      "Maintain balanced diet, exercise, hydration, and regular check-ups."
+    ],
+    "precautions": [
+      "Avoid irregular sleep, poor hydration, and a prolonged sedentary routine."
+    ],
+    "doctorSpecialization": [
+      "General physician"
+    ],
+    "foodIntake": [
+      "Seasonal fruits",
+      "Vegetables",
+      "Protein-rich meals",
+      "Adequate water intake"
+    ],
+    "foodsToAvoid": [
+      "Highly processed food",
+      "Sugary packaged snacks",
+      "Excess oily meals"
+    ],
+    "exercisePlan": [
+      "30 minutes of walking",
+      "Light stretching",
+      "Basic body-weight exercise 3 to 4 times weekly"
+    ],
+    "dietPlan": [
+      "Balanced diet with protein, vegetables, fruits, and whole grains"
+    ],
+    "urgency": "low",
+    "riskScore": 18,
+    "engine": "fallback",
+    "engineMessage": "SWI-Prolog was not detected, so the built-in JavaScript mirror rules were used.",
+    "createdAt": "2026-04-20T12:51:05.592Z"
+  },
+  {
+    "userId": "2f682766-1792-4aed-b871-eaaa0af0865c",
+    "userEmail": "spurthihanumandla648@gmail.com",
+    "name": "Hanumandla spurthi",
+    "age": 32,
+    "gender": "female",
+    "bloodGroup": "",
+    "height": 168,
+    "weight": 62,
+    "heartRate": 88,
+    "temperature": 37.1,
+    "oxygen": 98,
+    "stressLevel": "moderate",
+    "activityLevel": "medium",
+    "lifestyleNotes": "",
+    "symptoms": [],
+    "diagnosis": "general_wellness",
+    "matchedRules": [
+      "general_wellness"
+    ],
+    "observations": [
+      "No strong disease rule was triggered from the current information."
+    ],
+    "recommendations": [
+      "Maintain balanced diet, exercise, hydration, and regular check-ups."
+    ],
+    "precautions": [
+      "Avoid irregular sleep, poor hydration, and a prolonged sedentary routine."
+    ],
+    "doctorSpecialization": [
+      "General physician"
+    ],
+    "foodIntake": [
+      "Seasonal fruits",
+      "Vegetables",
+      "Protein-rich meals",
+      "Adequate water intake"
+    ],
+    "foodsToAvoid": [
+      "Highly processed food",
+      "Sugary packaged snacks",
+      "Excess oily meals"
+    ],
+    "exercisePlan": [
+      "30 minutes of walking",
+      "Light stretching",
+      "Basic body-weight exercise 3 to 4 times weekly"
+    ],
+    "dietPlan": [
+      "Balanced diet with protein, vegetables, fruits, and whole grains"
+    ],
+    "urgency": "low",
+    "riskScore": 18,
+    "engine": "fallback",
+    "engineMessage": "SWI-Prolog was not detected, so the built-in JavaScript mirror rules were used.",
+    "createdAt": "2026-04-23T06:06:56.342Z"
+  },
+  {
+    "userId": "2f682766-1792-4aed-b871-eaaa0af0865c",
+    "userEmail": "spurthihanumandla648@gmail.com",
+    "name": "Hanumandla spurthi",
+    "age": 32,
+    "gender": "female",
+    "bloodGroup": "",
+    "height": 168,
+    "weight": 62,
+    "heartRate": 88,
+    "temperature": 37.1,
+    "oxygen": 98,
+    "stressLevel": "moderate",
+    "activityLevel": "medium",
+    "lifestyleNotes": "",
+    "symptoms": [
+      "headache",
+      "chest_pain",
+      "thirst",
+      "frequent_urination"
+    ],
+    "diagnosis": "diabetes_risk",
+    "matchedRules": [
+      "diabetes_risk"
+    ],
+    "observations": [
+      "Frequent urination with thirst suggests diabetic-risk screening is needed."
+    ],
+    "recommendations": [
+      "Schedule blood sugar testing and clinical review."
+    ],
+    "precautions": [
+      "Avoid excess sugar intake, skipped meals, and ignoring repeat symptoms."
+    ],
+    "doctorSpecialization": [
+      "Endocrinologist",
+      "Diabetologist"
+    ],
+    "foodIntake": [
+      "High-fiber foods",
+      "Whole grains",
+      "Leafy vegetables",
+      "Controlled-portion meals"
+    ],
+    "foodsToAvoid": [
+      "Sugary sweets",
+      "Refined flour items",
+      "Sweetened soft drinks"
+    ],
+    "exercisePlan": [
+      "Brisk walking for 30 minutes",
+      "Light strength training 3 times a week"
+    ],
+    "dietPlan": [
+      "Low-sugar diabetic-friendly meal plan",
+      "High-fiber foods with portion control"
+    ],
+    "urgency": "low",
+    "riskScore": 42,
+    "engine": "fallback",
+    "engineMessage": "SWI-Prolog was not detected, so the built-in JavaScript mirror rules were used.",
+    "createdAt": "2026-04-23T06:55:20.053Z"
+  }
+]

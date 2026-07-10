@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Smart Health Care - Feedback</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body data-page="feedback">
+  <div class="shell">
+    <header class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">Step 4 of 4</p>
+        <h1>Patient feedback</h1>
+        <p class="hero-text">Please rate your experience and share quick feedback about the health report and guidance.</p>
+        <div class="hero-tags">
+          <span id="welcomeTag">Signed in</span>
+          <span>Final step</span>
+          <span>Star rating</span>
+        </div>
+      </div>
+      <div class="hero-card">
+        <div class="profile-menu">
+          <button class="profile-trigger" id="profileTrigger" type="button" aria-label="Open profile menu" aria-expanded="false">
+            <span class="profile-avatar" id="profileAvatar">P</span>
+          </button>
+          <div class="profile-dropdown" id="profileDropdown" hidden>
+            <p class="profile-name" id="profileName">Loading...</p>
+            <p class="profile-email" id="profileEmail">Loading user account</p>
+            <button class="profile-logout" id="logoutButton" type="button">Logout</button>
+          </div>
+        </div>
+        <p>Active session</p>
+        <strong id="userCardName">Loading...</strong>
+        <ul>
+          <li id="userCardEmail">Loading user account</li>
+          <li>Page 4: Feedback</li>
+          <li>Rate the overall experience</li>
+        </ul>
+      </div>
+    </header>
+
+    <main class="single-panel-layout">
+      <section class="panel wizard-panel">
+        <div class="stepper">
+          <div class="step-chip complete">1. Patient details</div>
+          <div class="step-chip complete">2. Symptoms</div>
+          <div class="step-chip complete">3. Report</div>
+          <div class="step-chip active">4. Feedback</div>
+        </div>
+
+        <div class="report-stage-copy" id="feedbackSummary"></div>
+
+        <form id="feedbackForm">
+          <fieldset class="symptom-fieldset">
+            <legend>Give your rating</legend>
+            <div class="star-rating">
+              <label class="star-option" data-value="1">
+                <input type="radio" name="stars" value="1">
+                <span>&#9733;</span>
+              </label>
+              <label class="star-option" data-value="2">
+                <input type="radio" name="stars" value="2">
+                <span>&#9733;</span>
+              </label>
+              <label class="star-option" data-value="3">
+                <input type="radio" name="stars" value="3">
+                <span>&#9733;</span>
+              </label>
+              <label class="star-option" data-value="4">
+                <input type="radio" name="stars" value="4">
+                <span>&#9733;</span>
+              </label>
+              <label class="star-option" data-value="5">
+                <input type="radio" name="stars" value="5">
+                <span>&#9733;</span>
+              </label>
+            </div>
+          </fieldset>
+
+          <label>
+            Comments
+            <textarea id="feedbackComments" rows="4" placeholder="Share what was helpful or what should be improved."></textarea>
+          </label>
+
+          <p class="auth-status" id="feedbackStatus"></p>
+
+          <div class="actions">
+            <a class="button secondary link-button" href="/report">Back to Report</a>
+            <button type="submit" class="button primary">Submit Feedback</button>
+          </div>
+        </form>
+      </section>
+    </main>
+  </div>
+
+  <script src="flow.js"></script>
+</body>
+</html>
